@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  background-color: #ffd569;
+  padding: 50px;
+}
+.fruit-content-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px;
+}
+img {
+  width: 50%;
+}
+.fruit-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
